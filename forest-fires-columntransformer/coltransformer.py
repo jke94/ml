@@ -2,7 +2,6 @@ import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import Normalizer
 
 # Read full data and select columns for PCA.
 dataframe = pd.read_csv("forestfires.csv")
