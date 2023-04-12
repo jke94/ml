@@ -15,5 +15,14 @@ python main.py
 
 Similar output like this...
 ```
-// TODO
+Score on train data:  0.9642857142857143
+Score on test data:  1.0
+              precision    recall  f1-score   support
+
+      Normal       1.00      1.00      1.00         5
+       tumor       1.00      1.00      1.00         3
+
+    accuracy                           1.00         8
+   macro avg       1.00      1.00      1.00         8
+weighted avg       1.00      1.00      1.00         8
 ```
