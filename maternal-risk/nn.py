@@ -20,7 +20,7 @@ df_features = df[selected_columns]
 min_max_scaler = StandardScaler()
 x_scaled = min_max_scaler.fit_transform(df_features)
 features_scaled = pd.DataFrame(x_scaled, columns=selected_columns)
-print(fea)
+print(features_scaled)
 
 # Labels
 labels = df['RiskLevel']
